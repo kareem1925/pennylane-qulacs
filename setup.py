@@ -1,7 +1,7 @@
 import re
 
 from setuptools import setup
-
+import os
 
 with open('./pennylane_qulacs/__init__.py') as f:
     version, = re.findall('__version__ = \'(.*)\'', f.read())
