@@ -18,7 +18,7 @@ setup(
         'pennylane>=0.5.0',
         'numpy',
         'scipy',
-        ('qulacs-gpu' if os.path.exists('/proc/driver/nvidia/version') else 'qulacs'
+        ('qulacs-gpu' if os.path.exists('/proc/driver/nvidia/version') else 'qulacs')
     ],
     packages=['pennylane_qulacs'],
     entry_points={
